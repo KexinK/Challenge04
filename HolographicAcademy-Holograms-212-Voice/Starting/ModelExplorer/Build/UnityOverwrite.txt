@@ -6,9 +6,10 @@
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
 ModelExplorer.sln: 43E4383E5AA61ADAE6DB1BC1AC78C3EC
+ModelExplorer.sln.metaproj: C09C58C86FDFDDD589D4E7650CD092AF
 ModelExplorer\App.cs: 71B6DFCAB83EDA7B55F6BD35ED84AFC5
 ModelExplorer\AssemblyConverterArgs.txt: DBBCE025C5A1D21BEE2D9651A9497E4E
-ModelExplorer\ModelExplorer.csproj: 5441D95498AC09383B466A71ED144F2D
+ModelExplorer\ModelExplorer.csproj: D58C7414846FCEB46996193DB3493FD8
 ModelExplorer\ModelExplorer.csproj.user: modified
 ModelExplorer\Package.appxmanifest: EF6A0144A31EAAF775083E4C7F20E68E
 ModelExplorer\project.json: 1D02BC64BAC0D041019673A1C4C51737
@@ -19,4 +20,13 @@ ModelExplorer\Assets\Square44x44Logo.targetsize-24.png: 156637F7B5363E983E7A46D8
 ModelExplorer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 ModelExplorer\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 ModelExplorer\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+ModelExplorer\bin\x64\Release\AppX\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
+ModelExplorer\bin\x64\Release\AppX\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
+ModelExplorer\bin\x64\Release\AppX\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
+ModelExplorer\bin\x64\Release\AppX\Assets\Square44x44Logo.targetsize-24.png: 156637F7B5363E983E7A46D8E533A23D
+ModelExplorer\bin\x64\Release\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
+ModelExplorer\bin\x64\Release\AppX\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
+ModelExplorer\bin\x64\Release\AppX\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+ModelExplorer\bin\x64\Release\AppX\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
+ModelExplorer\obj\x64\Release\ModelExplorer.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 ModelExplorer\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826

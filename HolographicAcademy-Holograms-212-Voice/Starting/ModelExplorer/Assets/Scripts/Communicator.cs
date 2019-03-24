@@ -77,9 +77,7 @@ namespace Academy
 
             speechInputSource = GetComponent<SpeechInputSource>();
 
-            // TODO: 2.a Delete the following two lines:
-            RecordButton.SetActive(false);
-            MessageUIRenderer.gameObject.SetActive(false);
+          
         }
 
         private void Update()
