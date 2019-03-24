@@ -40,7 +40,7 @@ public class Fitbox : MonoBehaviour
         }
 
         // Set up our GestureRecognizer to listen for the SelectEvent
-        recognizer = new GestureRecognizer();
+        recognizer = new UnityEngine.XR.WSA.Input.GestureRecognizer();
         recognizer.TappedEvent += (source, tapCount, ray) =>
         {
             DismissFitbox();
