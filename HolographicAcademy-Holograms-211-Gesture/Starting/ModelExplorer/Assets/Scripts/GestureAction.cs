@@ -67,6 +67,7 @@ public class GestureAction : MonoBehaviour, INavigationHandler, IManipulationHan
             /* TODO: DEVELOPER CODING EXERCISE 4.a */
 
             // 4.a: Make this transform's position be the manipulationOriginalPosition + eventData.CumulativeDelta
+            transform.position = manipulationOriginalPosition + eventData.CumulativeDelta;
         }
     }
 

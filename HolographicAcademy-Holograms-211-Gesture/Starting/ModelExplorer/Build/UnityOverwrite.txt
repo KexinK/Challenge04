@@ -11,7 +11,7 @@ GeneratedProjects\UWP\Unity.Analytics.DataPrivacy\project.json: 1D02BC64BAC0D041
 GeneratedProjects\UWP\Unity.TextMeshPro\project.json: 1D02BC64BAC0D041019673A1C4C51737
 ModelExplorer\App.cs: 71B6DFCAB83EDA7B55F6BD35ED84AFC5
 ModelExplorer\AssemblyConverterArgs.txt: 2DC4F52475EA150247A18236A1F44F30
-ModelExplorer\ModelExplorer.csproj: 6233510002C3944C2CBFB339B5E1FD96
+ModelExplorer\ModelExplorer.csproj: 905C9E65E4DED2AD5A697A96D59F3D7E
 ModelExplorer\ModelExplorer.csproj.user: modified
 ModelExplorer\Package.appxmanifest: 55998A5E0C34E17BF40A282EFCFD7C30
 ModelExplorer\project.json: 1D02BC64BAC0D041019673A1C4C51737
