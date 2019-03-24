@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 122746647}
   - component: {fileID: 122746646}
   - component: {fileID: 122746645}
+  - component: {fileID: 122746648}
   m_Layer: 0
   m_Name: AstronautManager
   m_TagString: Untagged
@@ -235,6 +236,10 @@ MonoBehaviour:
     KeyCode: 109
   - Keyword: Rotate Astronaut
     KeyCode: 114
+  - Keyword: Expand Model
+    KeyCode: 101
+  - Keyword: Reset Model
+    KeyCode: 115
   recognitionConfidenceLevel: 1
 --- !u!114 &122746646
 MonoBehaviour:
@@ -262,6 +267,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &122746648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122746644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d6513c2cdf97f409654a2a4114d9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Keywords:
+  - Keyword: Expand Model
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 122746646}
+          m_MethodName: ExpandModelCommand
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - Keyword: Reset Model
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 122746646}
+          m_MethodName: ResetModelCommand
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  IsGlobalListener: 1
+  PersistentKeywords: 0
 --- !u!1001 &561344824
 PrefabInstance:
   m_ObjectHideFlags: 0
